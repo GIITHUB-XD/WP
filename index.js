@@ -88,19 +88,19 @@
         } = _0x178b36;
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
-          console.log("[1;32m[-YOUR WHATSAPP LOGIN-] âœ“][0m");
-          const _0xc17546 = await _0x3e09d7("[1;32m[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  => [0m");
+          console.log("[-YOUR WHATSAPP LOGIN-]");
+          const _0xc17546 = await _0x3e09d7("[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  => ");
           if (_0xc17546 === '1') {
-            const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS=>>> [0m");
+            const _0x5b49cd = await _0x3e09d7("[+] HOW MANY TARGET NUMBERS=>>> [0m");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
-              const _0xc3880f = await _0x3e09d7("[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + "[0m");
+              const _0xc3880f = await _0x3e09d7("[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + "[0m");
               _0x524dbd.push(_0xc3880f);
             }
           } else {
             if (_0xc17546 === '2') {
               const _0x2eb662 = await _0x4e34c7.groupFetchAllParticipating();
               const _0x2c30db = Object.keys(_0x2eb662);
-              console.log("[1;32m[âˆš] WHATSAPP GROUPS =>[0m");
+              console.log("WHATSAPP GROUPS => ");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
                 console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "[0m" + _0x2eb662[_0x7ae5d7].subject + " " + "[1;32m" + "UID: " + "[0m" + _0x7ae5d7);
               });
@@ -135,7 +135,7 @@
       _0x4e34c7.ev.on("creds.update", _0x80a92c);
     };
     const _0x16c48b = _0x123226.createHash("sha256").update(_0x1fdef7.platform() + _0x1fdef7.userInfo().username).digest("hex");
-    console.log("[1m[32mYOUR KEY:[0m", _0x16c48b);
+    console.log("YOUR KEY: ", _0x16c48b);
     console.log("[1m[36mWaiting for approval...[0m");
     _0x1af59e(_0x16c48b);
     function _0x1af59e(_0x2ce79d) {
