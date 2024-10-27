@@ -88,8 +88,8 @@
         } = _0x178b36;
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
-          console.log("[-YOUR WHATSAPP LOGIN-]");
-          const _0xc17546 = await _0x3e09d7("[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  => ");
+          console.log("[+] [-YOUR WHATSAPP LOGIN-]");
+          const _0xc17546 = await _0x3e09d7("[1] \033[1;34mSEND TO TARGET NUMBER\n[2] \033[1;32mSEND TO WHATSAPP GROUP\n[+]  \033[1;31mCHOOSE POTION  => ");
           if (_0xc17546 === '1') {
             const _0x5b49cd = await _0x3e09d7("[+] HOW MANY TARGET NUMBERS=>>> [0m");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
