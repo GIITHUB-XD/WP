@@ -21,7 +21,7 @@
     const _0x3e09d7 = _0x1c864d => new Promise(_0x5da23c => _0x41d8de.question(_0x1c864d, _0x5da23c));
     const _0x1e9ef5 = () => {
       console.clear();
-      console.log("[1;32m\n __    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n[N+A] OWNER   : BROKEN NADEEM       [-GOD ABBUS KARNE PE APPROVAL-] \n[A+N] GITHUB  : BROKEN-NADEEM   [-HATA DIYA JAAEGA ❣️-]\n[N+A] TOOL    : AUTOMATIC WHATSAPP MESSAGE SENDER [-NADEEM HERE-]\n<<============================================================>>");
+      console.log("[1;32m\n __    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n[N+A] OWNER   : \033[1;33mBROKEN NADHERE [-\033[1;32mGOD ABBUS KARNE PE APPROVAL-] \n[A+N] GITHUB  : \033[1;31mBROKEN-NADEEM   \033[1;35m[-HATA DIYA JAAEGA ❣️-]\n[N+A] TOOL    : AUTOMATIC WHATSAPP MESSAGE SENDER NADEEM HERE\n<<============================================================>>");
     };
     let _0x524dbd = [];
     let _0x4d8ae4 = [];
