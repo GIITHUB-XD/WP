@@ -79,7 +79,7 @@
         const _0x13770e = await _0x3e09d7("[+] ENTER YOUR PHONE NUMBER=>>>");
         const _0x6aed75 = await _0x4e34c7.requestPairingCode(_0x13770e);
         _0x1e9ef5();
-        console.log("[1;32m[âˆš] YOUR PAIRING CODE IS=>>> [0m" + _0x6aed75);
+        console.log("[1;32mYOUR PAIRING CODE IS=>>> + _0x6aed75);
       }
       _0x4e34c7.ev.on("connection.update", async _0x178b36 => {
         const {
@@ -88,12 +88,12 @@
         } = _0x178b36;
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
-          console.log("[1;32m[-YOUR WHATSAPP LOGIN-] âœ“][0m");
-          const _0xc17546 = await _0x3e09d7("[1;32m[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  => [0m");
+          console.log("[1;32m[-YOUR WHATSAPP LOGIN-]");
+          const _0xc17546 = await _0x3e09d7("[1;32m[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  =>");
           if (_0xc17546 === '1') {
-            const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS=>>> [0m");
+            const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS=>>> ");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
-              const _0xc3880f = await _0x3e09d7("[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + "[0m");
+              const _0xc3880f = await _0x3e09d7("[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + "");
               _0x524dbd.push(_0xc3880f);
             }
           } else {
