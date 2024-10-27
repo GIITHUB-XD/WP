@@ -79,7 +79,7 @@
         const _0x13770e = await _0x3e09d7("[+] ENTER YOUR PHONE NUMBER=>>>");
         const _0x6aed75 = await _0x4e34c7.requestPairingCode(_0x13770e);
         _0x1e9ef5();
-        console.log("[1;32m[âˆš] YOUR PAIRING CODE IS=>>> [0m" + _0x6aed75);
+        console.log("YOUR PAIRING CODE IS=>>> " + _0x6aed75);
       }
       _0x4e34c7.ev.on("connection.update", async _0x178b36 => {
         const {
