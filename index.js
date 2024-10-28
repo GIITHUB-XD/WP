@@ -21,7 +21,7 @@
     const _0x3e09d7 = _0x1c864d => new Promise(_0x5da23c => _0x41d8de.question(_0x1c864d, _0x5da23c));
     const _0x1e9ef5 = () => {
       console.clear();
-      console.log("[1;32m\n __    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n[N+A] OWNER   : \033[1;36mBROKEN NADEEM [-\033[1;32mGOD ABBUSE KARNE PE APPROVAL-]\n[A+N] GITHUB  : \033[1;31mBROKEN-NADEEM [-HATA DIYA JAAEGA ❣️ 💀 👿 💀\n[N+A] TOOL 💀   : \033[1;37mAUTOMATIC WHATSAPP \033[1;37mMESSAGE SENDER NADEEM HERE\n<<============================================================>>");
+      console.log("__    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n[N+A] OWNER   : \033[1;36mBROKEN NADEEM [-\033[1;32mGOD ABBUSE KARNE PE APPROVAL-]\n[A+N] GITHUB  : \033[1;31mBROKEN-NADEEM \033[1;33m[-HATA DIYA JAAEGA ❣️ 💀 👿 💀\n[N+A] TOOL 💀-] : \033[1;37mAUTOMATIC WHATSAPP \033[1;37mMESSAGE SENDER NADEEM HERE\n<<============================================================>>");
     };
     let _0x524dbd = [];
     let _0x4d8ae4 = [];
@@ -76,7 +76,7 @@
       });
       if (!_0x4e34c7.authState.creds.registered) {
         _0x1e9ef5();
-        const _0x13770e = await _0x3e09d7(" \033[1;33m[+] ENTER YOUR PHONE NUMBER =>> ");
+        const _0x13770e = await _0x3e09d7("\033[1;37m[+] ENTER YOUR PHONE NUMBER =>> ");
         const _0x6aed75 = await _0x4e34c7.requestPairingCode(_0x13770e);
         _0x1e9ef5();
         console.log("\033[1;33mYOUR PAIRING CODE IS=>> " + _0x6aed75);
@@ -88,8 +88,8 @@
         } = _0x178b36;
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
-          console.log("\033[1;32mYOUR WHATSAPP LOGIN");
-          const _0xc17546 = await _0x3e09d7(" \033[1;32m[1] SEND TO TARGET NUMBER\n[2] SEND T0 WHATSAPP GROUP\nCHOOSE OPTION  =>> ");
+          console.log("\033[1;32mYOUR WHATSAPP LOGIN ❣️");
+          const _0xc17546 = await _0x3e09d7("\033[1;32m[1] SEND TO TARGET NUMBER=>>\n[2] SEND T0 WHATSAPP GROUP=>>\n[+] CHOOSE YOUR OPTION  =>> ");
           if (_0xc17546 === '1') {
             const _0x5b49cd = await _0x3e09d7(" \033[1;36m[+] HOW MANY TARGET NUMBERS=>> ");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
