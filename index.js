@@ -93,7 +93,7 @@
           if (_0xc17546 === '1') {
             const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS=>> ");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
-              const _0xc3880f = await _0x3e09d7("[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + ");
+              const _0xc3880f = await _0x3e09d7("[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + [0m");
               _0x524dbd.push(_0xc3880f);
             }
           } else {
