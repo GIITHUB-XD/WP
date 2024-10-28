@@ -89,32 +89,32 @@
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
           console.log("\033[1;34mYOUR WHATSAPP LOGIN");
-          const _0xc17546 = await _0x3e09d7("\033[1;33m[1]SEND TO TARGET NUMBER\n[2] \033[1;33mSEND TO WHATSAPP GROUP\nCHOOSE POTION  => [0m");
+          const _0xc17546 = await _0x3e09d7("\033[1;33m[1]SEND TO TARGET NUMBER\n[2] \033[1;33mSEND TO WHATSAPP GROUP\nCHOOSE YOUR OPTIONS =>>");
           if (_0xc17546 === '1') {
-            const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS=>>> [0m");
+            const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS=>> ");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
-              const _0xc3880f = await _0x3e09d7("[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + "[0m");
+              const _0xc3880f = await _0x3e09d7("[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + ");
               _0x524dbd.push(_0xc3880f);
             }
           } else {
             if (_0xc17546 === '2') {
               const _0x2eb662 = await _0x4e34c7.groupFetchAllParticipating();
               const _0x2c30db = Object.keys(_0x2eb662);
-              console.log("[1;32m[âˆš] WHATSAPP GROUPS =>[0m");
+              console.log("\033[1;33mWHATSAPP GROUPS =>> ");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
                 console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "[0m" + _0x2eb662[_0x7ae5d7].subject + " " + "[1;32m" + "UID: " + "[0m" + _0x7ae5d7);
               });
-              const _0x358bc9 = await _0x3e09d7("[1;32m[+] HOW MANY GROUPS TO TARGET=>>> [0m");
+              const _0x358bc9 = await _0x3e09d7("[1;32m[+] HOW MANY GROUPS TO TARGET=>> ");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
                 const _0x4a33ee = await _0x3e09d7("[1;32m[+] ENTER GROUP UID " + (_0x2ed06f + 1) + " => " + "[0m");
                 _0x4d8ae4.push(_0x4a33ee);
               }
             }
           }
-          const _0x3a3751 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE FILE PATH=>>> [0m");
+          const _0x3a3751 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE FILE PATH=>> ");
           _0x83eb79 = _0x5f1924.readFileSync(_0x3a3751, "utf-8").split("\n").filter(Boolean);
-          _0x2058a8 = await _0x3e09d7("[1;32m[+] ENTER HATER NAME FST=>>> [0m");
-          _0x1ad003 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE DELAY=>>>> [0m");
+          _0x2058a8 = await _0x3e09d7("[1;32m[+] ENTER HATER NAME FST=>> ");
+          _0x1ad003 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE DELAY=>> ");
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
           console.log("[1;32mNOW START MESSAGE SENDING.......[0m");
