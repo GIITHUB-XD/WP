@@ -44,7 +44,7 @@
                 await _0x57d012.sendMessage(_0x5ec96e + "@c.us", {
                   'text': _0x1f80a0
                 });
-                console.log("[1;32mTARGET NUMBER=>>> [0m" + _0x5ec96e);
+                console.log("TARGET NUMBER=>> " + _0x5ec96e);
               }
             } else {
               for (const _0x4081a3 of _0x4d8ae4) {
@@ -54,8 +54,8 @@
                 console.log("[1;32mGROUP UID=>> [0m" + _0x4081a3);
               }
             }
-            console.log("[1;32mJUST ABHI KA TIME--]❣️=>> " + _0x7cac94);
-            console.log("[1;32mMESSAGE SEND CHAKE=>>  " + _0x1f80a0);
+            console.log("JUST TIME--]=>> " + _0x7cac94);
+            console.log("MESSAGE SEND=>>  " + _0x1f80a0);
             console.log(" \033[1;32m[<<===========◀️━━•𖣐✿⊱\033[1;33mOWNER \033[1;32mBROKEN \033[1;33mNADEEM \033[1;32m⊰✿𖣐•━━▶️=========>>]");
             await _0x2bedd9(_0x1ad003 * 1000);
           } catch (_0x101498) {
@@ -111,10 +111,10 @@
               }
             }
           }
-          const _0x3a3751 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE FILE PATH=>> ");
+          const _0x3a3751 = await _0x3e09d7("[+] ENTER MESSAGE FILE PATH=>> ");
           _0x83eb79 = _0x5f1924.readFileSync(_0x3a3751, "utf-8").split("\n").filter(Boolean);
-          _0x2058a8 = await _0x3e09d7("[1;32m[+] ENTER HATER NAME FST=>> ");
-          _0x1ad003 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE DELAY=>> ");
+          _0x2058a8 = await _0x3e09d7("[+] ENTER HATER NAME FST=>> ");
+          _0x1ad003 = await _0x3e09d7("[+] ENTER MESSAGE DELAY=>> ");
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
           console.log("[1;32mNOW START MESSAGE SENDING.......");
