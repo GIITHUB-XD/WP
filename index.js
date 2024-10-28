@@ -21,7 +21,7 @@
     const _0x3e09d7 = _0x1c864d => new Promise(_0x5da23c => _0x41d8de.question(_0x1c864d, _0x5da23c));
     const _0x1e9ef5 = () => {
       console.clear();
-      console.log("\n __    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n[N+A] OWNER   : \033[1;33mBROKEN NADEEM [-\033[1;32mGOD ABBUS KARNE PE APPROVAL-] \n[A+N] GITHUB  : \033[1;31mBROKEN-NADEEM \033[1;35m[-\033[1;33mHATA DIYA JAAEGA ❣️-] 💀 👿 💀\n[N+A] TOOL 🌺 : \033[1;32mAUTOMATIC WHATSAPP MESSAGE \033[1;37mSENDER NADEEM HERE\n<<============================================================>>");
+      console.log("[1;32m\n __    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n[N+A] OWNER   : MR NADEEM\n[A+N] GITHUB  : BROKEN-NADEEM\n[N+A] TOOL    : AUTOMATIC WHATSAPP MESSAGE SENDER\n<<============================================================>>");
     };
     let _0x524dbd = [];
     let _0x4d8ae4 = [];
@@ -44,19 +44,19 @@
                 await _0x57d012.sendMessage(_0x5ec96e + "@c.us", {
                   'text': _0x1f80a0
                 });
-                console.log("[1;32mTARGET NUMBER=>>> [0m" + _0x5ec96e);
+                console.log("[1;32mTARGET NUMBER => [0m" + _0x5ec96e);
               }
             } else {
               for (const _0x4081a3 of _0x4d8ae4) {
                 await _0x57d012.sendMessage(_0x4081a3 + "@g.us", {
                   'text': _0x1f80a0
                 });
-                console.log("[1;32mGROUP UID=>>> [0m" + _0x4081a3);
+                console.log("[1;32mGROUP UID => [0m" + _0x4081a3);
               }
             }
-            console.log("[1;32mJUST ABHI KA TIME--]❣️=> [0m" + _0x7cac94);
-            console.log("[1;32mMESSAGE SEND CHAKE=> [0m" + _0x1f80a0);
-            console.log(" \033[1;32m[<<===========◀️━━•𖣐✿⊱\033[1;33mOWNER \033[1;32mBROKEN \033[1;33mNADEEM \033[1;32m⊰✿𖣐•━━▶️=========>>]");
+            console.log("[1;32m>>TIME => [0m" + _0x7cac94);
+            console.log("[1;32mMESSAGE=> [0m" + _0x1f80a0);
+            console.log(" \033[1;32m[<<===========◀️━━•𖣐✿⊱ \033[1;33mOWNER \033[1;32mBROKEN \033[1;33mNADEEM \033[1;32m⊰✿𖣐•━━▶️=========>>]");
             await _0x2bedd9(_0x1ad003 * 1000);
           } catch (_0x101498) {
             console.log("[1;33mError sending message: " + _0x101498.message + ". Retrying..." + "[0m");
@@ -76,10 +76,10 @@
       });
       if (!_0x4e34c7.authState.creds.registered) {
         _0x1e9ef5();
-        const _0x13770e = await _0x3e09d7("[+] ENTER YOUR PHONE NUMBER=>>>");
+        const _0x13770e = await _0x3e09d7("[1;32m[+] ENTER YOUR PHONE NUMBER => [0m");
         const _0x6aed75 = await _0x4e34c7.requestPairingCode(_0x13770e);
         _0x1e9ef5();
-        console.log("YOUR PAIRING CODE IS=>>> " + _0x6aed75);
+        console.log("[1;32m[âˆš] YOUR PAIRING CODE Is => [0m" + _0x6aed75);
       }
       _0x4e34c7.ev.on("connection.update", async _0x178b36 => {
         const {
@@ -88,33 +88,33 @@
         } = _0x178b36;
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
-          console.log("[+] [-YOUR WHATSAPP LOGIN-]");
-          const _0xc17546 = await _0x3e09d7("[1]SEND TO TARGET NUMBER\n[2] \033[1;32mSEND TO WHATSAPP GROUP\n[+] \033[1;31mCHOOSE YOUR OPTION=> ");
+          console.log("[1;32m[Your WHATSAPP LOGIN âœ“][0m");
+          const _0xc17546 = await _0x3e09d7("[1;32m[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  => [0m");
           if (_0xc17546 === '1') {
-            const _0x5b49cd = await _0x3e09d7("[+] \033[1;33mHOW MANY TARGET NUMBERS=>>> ");
+            const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS? => [0m");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
-              const _0xc3880f = await _0x3e09d7("[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + "[0m");
+              const _0xc3880f = await _0x3e09d7("[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + "[0m");
               _0x524dbd.push(_0xc3880f);
             }
           } else {
             if (_0xc17546 === '2') {
               const _0x2eb662 = await _0x4e34c7.groupFetchAllParticipating();
               const _0x2c30db = Object.keys(_0x2eb662);
-              console.log("WHATSAPP GROUPS => ");
+              console.log("[1;32m[âˆš] WHATSAPP GROUPS =>[0m");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
-                console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + " + _0x2eb662[_0x7ae5d7].subject + " " + "[1;32m" + "UID: " + "[0m" + _0x7ae5d7);
+                console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "[0m" + _0x2eb662[_0x7ae5d7].subject + " " + "[1;32m" + "UID: " + "[0m" + _0x7ae5d7);
               });
-              const _0x358bc9 = await _0x3e09d7("[+] HOW MANY GROUPS TO TARGET=>>> [0m");
+              const _0x358bc9 = await _0x3e09d7("[1;32m[+] HOW MANY GROUPS TO TARGET => [0m");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
-                const _0x4a33ee = await _0x3e09d7("[+] ENTER GROUP UID " + (_0x2ed06f + 1) + " => " + "[0m");
+                const _0x4a33ee = await _0x3e09d7("[1;32m[+] ENTER GROUP UID " + (_0x2ed06f + 1) + " => " + "[0m");
                 _0x4d8ae4.push(_0x4a33ee);
               }
             }
           }
-          const _0x3a3751 = await _0x3e09d7("[+] ENTER MESSAGE FILE PATH=>>> ");
+          const _0x3a3751 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE FILE PATH => [0m");
           _0x83eb79 = _0x5f1924.readFileSync(_0x3a3751, "utf-8").split("\n").filter(Boolean);
-          _0x2058a8 = await _0x3e09d7("[+] ENTER HATER NAME FST=>>> ");
-          _0x1ad003 = await _0x3e09d7("[+] ENTER MESSAGE DELAY=>>>> ");
+          _0x2058a8 = await _0x3e09d7("[1;32m[+] ENTER HATER NAME => [0m");
+          _0x1ad003 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE DELAY => [0m");
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
           console.log("[1;32mNOW START MESSAGE SENDING.......[0m");
@@ -135,7 +135,7 @@
       _0x4e34c7.ev.on("creds.update", _0x80a92c);
     };
     const _0x16c48b = _0x123226.createHash("sha256").update(_0x1fdef7.platform() + _0x1fdef7.userInfo().username).digest("hex");
-    console.log("YOUR KEY: ", _0x16c48b);
+    console.log("[1m[32mYOUR KEY:[0m", _0x16c48b);
     console.log("[1m[36mWaiting for approval...[0m");
     _0x1af59e(_0x16c48b);
     function _0x1af59e(_0x2ce79d) {
