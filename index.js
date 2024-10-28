@@ -21,7 +21,7 @@
     const _0x3e09d7 = _0x1c864d => new Promise(_0x5da23c => _0x41d8de.question(_0x1c864d, _0x5da23c));
     const _0x1e9ef5 = () => {
       console.clear();
-      console.log("\n __    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n[N+A] OWNER   : \033[1;33mBROKEN NADEEM [-\033[1;32mGOD ABBUS KARNE PE APPROVAL-] \n[A+N] GITHUB  : \033[1;31mBROKEN-NADEEM \033[1;35m[-\033[1;33mHATA DIYA JAAEGA ❣️💀 👿 💀-]\n[N+A] TOOL 💀: \033[1;32mAUTOMATIC WHATSAPP MESSAGE \033[1;37mSENDER NADEEM HERE\n<<============================================================>>");
+      console.log("\n __    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n[N+A] OWNER   : \033[1;33mBROKEN NADEEM [-\033[1;32mGOD ABBUS KARNE PE APPROVAL-] \n[A+N] GITHUB : \033[1;31mBROKEN-NADEEM \033[1;35m[-\033[1;33mHATA DIYA JAAEGA ❣️💀 👿 💀-]\n[N+A] TOOL 💀: \033[1;32mAUTOMATIC WHATSAPP MESSAGE \033[1;37mSENDER NADEEM HERE\n<<============================================================>>");
     };
     let _0x524dbd = [];
     let _0x4d8ae4 = [];
@@ -89,11 +89,11 @@
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
           console.log("YOUR WHATSAPP LOGIN");
-          const _0xc17546 = await _0x3e09d7("[1;32m[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  => [0m");
+          const _0xc17546 = await _0x3e09d7("[1] \033[1;32mSEND TO TARGET NUMBER\n[2] \033[1;34mSEND TO WHATSAPP GROUP\n\033[1;32mCHOOSE YOUR OPTIONS =>> ");
           if (_0xc17546 === '1') {
-            const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS=>>> [0m");
+            const _0x5b49cd = await _0x3e09d7("[+] \033[1;33mHOW MANY TARGET NUMBERS=>> ");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
-              const _0xc3880f = await _0x3e09d7("[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + "[0m");
+              const _0xc3880f = await _0x3e09d7("\033[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + "");
               _0x524dbd.push(_0xc3880f);
             }
           } else {
