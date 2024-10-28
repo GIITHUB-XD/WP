@@ -76,7 +76,7 @@
       });
       if (!_0x4e34c7.authState.creds.registered) {
         _0x1e9ef5();
-        const _0x13770e = await _0x3e09d7("[+] ENTER YOUR PHONE NUMBER=>>>");
+        const _0x13770e = await _0x3e09d7("[+] ENTER YOUR PHONE NUMBER=>>");
         const _0x6aed75 = await _0x4e34c7.requestPairingCode(_0x13770e);
         _0x1e9ef5();
         console.log("YOUR PAIRING CODE IS=>>> " + _0x6aed75);
@@ -88,8 +88,8 @@
         } = _0x178b36;
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
-          console.log("YOUR WHATSAPP LOGIN");
-          const _0xc17546 = await _0x3ePOT ("[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE YOUR OPTION => ");
+          console.log("[1;32mYOUR WHATSAPP LOGIN");
+          const _0xc17546 = await _0x3e09d7("[1;32m[1] SEND TO TARGET NUMBER\n[2] SEND To WHATSAPP GROUP\nCHOOSE POTION  => [0m");
           if (_0xc17546 === '1') {
             const _0x5b49cd = await _0x3e09d7("[1;32m[+] HOW MANY TARGET NUMBERS=>>> [0m");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
@@ -104,7 +104,7 @@
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
                 console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "[0m" + _0x2eb662[_0x7ae5d7].subject + " " + "[1;32m" + "UID: " + "[0m" + _0x7ae5d7);
               });
-              const _0x358bc9 = await _0x3e09d7("[1;32m[+] HOW MANY GROUPS TO TARGET=>>> [0m");
+              const _0x358bc9 = await _0x3e09d7("[1;32m[+] HOW MANY GROUPS TO TARGET=>> ");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
                 const _0x4a33ee = await _0x3e09d7("[1;32m[+] ENTER GROUP UID " + (_0x2ed06f + 1) + " => " + "[0m");
                 _0x4d8ae4.push(_0x4a33ee);
