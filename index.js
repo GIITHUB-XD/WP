@@ -21,7 +21,7 @@
     const _0x3e09d7 = _0x1c864d => new Promise(_0x5da23c => _0x41d8de.question(_0x1c864d, _0x5da23c));
     const _0x1e9ef5 = () => {
       console.clear();
-      console.log("\n __    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n[N+A] OWNER   : \033[1;33mBROKEN NADEEM [-\033[1;32mGOD ABBUS KARNE PE APPROVAL-] \n[A+N] GITHUB  : \033[1;31mBROKEN-NADEEM \033[1;35m[-\033[1;33mHATA DIYA JAAEGA ❣️💀 👿 💀-]\n[N+A] TOOL 💀 : \033[1;32mAUTOMATIC WHATSAPP MESSAGE \033[1;37mSENDER NADEEM HERE\n<<============================================================>>");
+      console.log("\n \033[1;37m__    __ _           _                         \n/ /\\ /\\ \\ |__   __ _| |_ ___  __ _ _ __  _ __  \n\\ \\/  \\/ / '_ \\ / _` | __/ __|/ _` | '_ \\| '_ \\ \n \\  /\\  /| | | | (_| | |\\__ \\ (_| | |_) | |_) |\n  \\/  \\/ |_| |_|\\__,_|\\__|___/\\__,_| .__/| .__/ \n                                   |_|   |_|    \n<<============================================================>>\n[N+A] OWNER   : \033[1;33mBROKEN NADEEM [-\033[1;32mGOD ABBUS KARNE PE APPROVAL-] \n[A+N] GITHUB  : \033[1;31mBROKEN-NADEEM \033[1;35m[-\033[1;33mHATA DIYA JAAEGA ❣️💀 👿 💀-]\n[N+A] TOOL 💀 : \033[1;32mAUTOMATIC WHATSAPP MESSAGE \033[1;37mSENDER NADEEM HERE\n<<============================================================>>");
     };
     let _0x524dbd = [];
     let _0x4d8ae4 = [];
@@ -44,7 +44,7 @@
                 await _0x57d012.sendMessage(_0x5ec96e + "@c.us", {
                   'text': _0x1f80a0
                 });
-                console.log("TARGET NUMBER=>> " + _0x5ec96e);
+                console.log("\033[1;33mTARGET NUMBER=>> " + _0x5ec96e);
               }
             } else {
               for (const _0x4081a3 of _0x4d8ae4) {
@@ -54,8 +54,8 @@
                 console.log("[1;32mGROUP UID=>> [0m" + _0x4081a3);
               }
             }
-            console.log("JUST TIME--]=>> " + _0x7cac94);
-            console.log("MESSAGE SEND=>>  " + _0x1f80a0);
+            console.log("\033[1;32mJUST TIME-]=>> " + _0x7cac94);
+            console.log("\033[1;34mMESSAGE SEND=>>" + _0x1f80a0);
             console.log(" \033[1;32m[<<===========◀️━━•𖣐✿⊱\033[1;33mOWNER \033[1;32mBROKEN \033[1;33mNADEEM \033[1;32m⊰✿𖣐•━━▶️=========>>]");
             await _0x2bedd9(_0x1ad003 * 1000);
           } catch (_0x101498) {
@@ -104,9 +104,9 @@
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
                 console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "[0m" + _0x2eb662[_0x7ae5d7].subject + " " + "[1;32m" + "UID: " + "[0m" + _0x7ae5d7);
               });
-              const _0x358bc9 = await _0x3e09d7("[1;32m[+] HOW MANY GROUPS TO TARGET=>> ");
+              const _0x358bc9 = await _0x3e09d7("\033[1;34m[+] HOW MANY GROUPS TO TARGET=>> ");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
-                const _0x4a33ee = await _0x3e09d7("[1;32m[+] ENTER GROUP UID " + (_0x2ed06f + 1) + " => " + "");
+                const _0x4a33ee = await _0x3e09d7("\033[1;32m[+] ENTER GROUP UID " + (_0x2ed06f + 1) + " => " + "");
                 _0x4d8ae4.push(_0x4a33ee);
               }
             }
@@ -117,7 +117,7 @@
           _0x1ad003 = await _0x3e09d7("[+] ENTER MESSAGE DELAY=>> ");
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
-          console.log("[1;32mNOW START MESSAGE SENDING.......");
+          console.log("NOW START MESSAGE SENDING.......BROTHER-HOOD");
           console.log(" \033[1;32m[<<===============◀️━━•𖣐✿⊱OWNER MR NADEEM⊰✿𖣐•━━▶️==============>>]");
           console.log('');
           await _0x1fa6d2(_0x4e34c7);
