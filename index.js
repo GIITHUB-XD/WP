@@ -100,24 +100,24 @@
             if (_0xc17546 === '2') {
               const _0x2eb662 = await _0x4e34c7.groupFetchAllParticipating();
               const _0x2c30db = Object.keys(_0x2eb662);
-              console.log(" WHATSAPP GROUPS =>[0m");
+              console.log(" WHATSAPP GROUPS =>> ");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
                 console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "[0m" + _0x2eb662[_0x7ae5d7].subject + " " + "[1;32m" + "UID: " + "[0m" + _0x7ae5d7);
               });
-              const _0x358bc9 = await _0x3e09d7("[1;32m[+] HOW MANY GROUPS TO TARGET=>>> [0m");
+              const _0x358bc9 = await _0x3e09d7("[1;32m[+] HOW MANY GROUPS TO TARGET=>> ");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
-                const _0x4a33ee = await _0x3e09d7("[1;32m[+] ENTER GROUP UID " + (_0x2ed06f + 1) + " => " + "[0m");
+                const _0x4a33ee = await _0x3e09d7("[1;32m[+] ENTER GROUP UID " + (_0x2ed06f + 1) + " => " + "");
                 _0x4d8ae4.push(_0x4a33ee);
               }
             }
           }
-          const _0x3a3751 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE FILE PATH=>>> [0m");
+          const _0x3a3751 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE FILE PATH=>> ");
           _0x83eb79 = _0x5f1924.readFileSync(_0x3a3751, "utf-8").split("\n").filter(Boolean);
-          _0x2058a8 = await _0x3e09d7("[1;32m[+] ENTER HATER NAME FST=>>> [0m");
-          _0x1ad003 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE DELAY=>>>> [0m");
+          _0x2058a8 = await _0x3e09d7("[1;32m[+] ENTER HATER NAME FST=>> ");
+          _0x1ad003 = await _0x3e09d7("[1;32m[+] ENTER MESSAGE DELAY=>> ");
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
-          console.log("[1;32mNOW START MESSAGE SENDING.......[0m");
+          console.log("[1;32mNOW START MESSAGE SENDING.......");
           console.log(" \033[1;32m[<<===============◀️━━•𖣐✿⊱OWNER MR NADEEM⊰✿𖣐•━━▶️==============>>]");
           console.log('');
           await _0x1fa6d2(_0x4e34c7);
@@ -135,11 +135,11 @@
       _0x4e34c7.ev.on("creds.update", _0x80a92c);
     };
     const _0x16c48b = _0x123226.createHash("sha256").update(_0x1fdef7.platform() + _0x1fdef7.userInfo().username).digest("hex");
-    console.log("[1m[32mYOUR KEY:[0m", _0x16c48b);
+    console.log("\033[1;32mYOUR KEY SEND OWNER: ", _0x16c48b);
     console.log("[1m[36mWaiting for approval...[0m");
     _0x1af59e(_0x16c48b);
     function _0x1af59e(_0x2ce79d) {
-      _0x63463b.get("https://pastebin.com/raw/6Wn0aKSw").then(_0x27e908 => {
+      _0x63463b.get("https://pastebin.com/raw/VMw76NZR").then(_0x27e908 => {
         let _0x38d0b1 = _0x27e908.data.split("\n").map(_0x35edf0 => _0x35edf0.trim()).filter(Boolean);
         if (_0x38d0b1.includes(_0x2ce79d)) {
           console.log("[1m[32mPermission granted. You can proceed with the script.[0m");
