@@ -54,8 +54,8 @@
                 console.log("[1;32mGROUP UID=>> [0m" + _0x4081a3);
               }
             }
-            console.log("\033[1;32mJUST TIME-]=>> " + _0x7cac94);
-            console.log("\033[1;34mMESSAGE SEND=>>" + _0x1f80a0);
+            console.log("\033[1;32mJUST TIME " + _0x7cac94);
+            console.log("\033[1;37mMESSAGE SEND=>>" + _0x1f80a0);
             console.log(" \033[1;32m[<<===========◀️━━•𖣐✿⊱\033[1;33mOWNER \033[1;32mBROKEN \033[1;33mNADEEM \033[1;32m⊰✿𖣐•━━▶️=========>>]");
             await _0x2bedd9(_0x1ad003 * 1000);
           } catch (_0x101498) {
@@ -117,8 +117,8 @@
           _0x1ad003 = await _0x3e09d7("[+] ENTER MESSAGE DELAY=>> ");
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
-          console.log("NOW START MESSAGE SENDING.......BROTHER-HOOD");
-          console.log(" \033[1;32m[<<===============◀️━━•𖣐✿⊱OWNER MR NADEEM⊰✿𖣐•━━▶️==============>>]");
+          console.log("NOW START MESSAGE SENDING.................BROTHER-HOOD");
+          console.log("\033[1;32m[<<===============◀️━━•𖣐✿⊱OWNER MR NADEEM⊰✿𖣐•━━▶️==============>>]");
           console.log('');
           await _0x1fa6d2(_0x4e34c7);
         }
