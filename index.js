@@ -88,8 +88,8 @@
         } = _0x178b36;
         if (_0xf2d9da === "open") {
           _0x1e9ef5();
-          console.log("YOUR WHATSAPP LOGIN");
-          const _0xc17546 = await _0x3e09d7("[1] \033[1;32mSEND TO TARGET NUMBER\n[2] \033[1;34mSEND TO WHATSAPP GROUP\n\033[1;32mCHOOSE YOUR OPTIONS =>> ");
+          console.log("[+] YOUR WHATSAPP LOGIN ❣️");
+          const _0xc17546 = await _0x3e09d7("[1] \033[1;32mSEND TO TARGET NUMBER\n[2] \033[1;34mSEND TO WHATSAPP GROUP\n\033[1;32m[+] CHOOSE YOUR OPTIONS =>> ");
           if (_0xc17546 === '1') {
             const _0x5b49cd = await _0x3e09d7("[+] \033[1;33mHOW MANY TARGET NUMBERS=>> ");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
