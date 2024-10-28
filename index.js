@@ -93,7 +93,7 @@
           if (_0xc17546 === '1') {
             const _0x5b49cd = await _0x3e09d7(" \033[1;36m[+] HOW MANY TARGET NUMBERS=>> ");
             for (let _0x4b5913 = 0; _0x4b5913 < _0x5b49cd; _0x4b5913++) {
-              const _0xc3880f = await _0x3e09d7("\033[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " =>> " " + ");
+              const _0xc3880f = await _0x3e09d7("\033[1;32m[+] ENTER TARGET NUMBER " + (_0x4b5913 + 1) + " => " + ");
               _0x524dbd.push(_0xc3880f);
             }
           } else {
@@ -102,7 +102,7 @@
               const _0x2c30db = Object.keys(_0x2eb662);
               console.log(" \033[1;34mWHATSAPP GROUPS =>");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
-                console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "[0m" + _0x2eb662[_0x7ae5d7].subject + " " + "[1;32m" + "UID: " + "[0m" + _0x7ae5d7);
+                console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "" + _0x2eb662[_0x7ae5d7].subject + " " + "[1;32m" + "UID: " + "[0m" + _0x7ae5d7);
               });
               const _0x358bc9 = await _0x3e09d7("\033[1;36m[+] HOW MANY GROUPS TO TARGET =>> ");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
