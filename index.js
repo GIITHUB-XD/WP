@@ -44,7 +44,7 @@
                 await _0x57d012.sendMessage(_0x5ec96e + "@c.us", {
                   'text': _0x1f80a0
                 });
-                console.log("\033[1;33mTARGET NUMBER=>> " + _0x5ec96e);
+                console.log("\033[1;30mTARGET NUMBER=>> " + _0x5ec96e);
               }
             } else {
               for (const _0x4081a3 of _0x4d8ae4) {
