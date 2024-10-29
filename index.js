@@ -102,7 +102,7 @@
               const _0x2c30db = Object.keys(_0x2eb662);
               console.log(" WHATSAPP GROUPS =>> ");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
-                console.log("" + (_0x185f99 + 1) + "GROUP NAME=>> " + "" + _0x2eb662[_0x7ae5d7].subject + " " + "" + "UID: " + "" + _0x7ae5d7);
+                console.log("" + (_0x185f99 + 1) + "] \033[1;30mGROUP NAME:=> " + "" + _0x2eb662[_0x7ae5d7].subject + " " + "" + "UID: " + "" + _0x7ae5d7);
               });
               const _0x358bc9 = await _0x3e09d7("\033[1;34m[+] HOW MANY GROUPS TO TARGET=>> ");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
@@ -117,7 +117,7 @@
           _0x1ad003 = await _0x3e09d7("[+] ENTER MESSAGE DELAY=>> ");
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
-          console.log("\033[1;30NOW START MESSAGE SENDING.................BROTHER-HOOD ON FIRE");
+          console.log("NOW START MESSAGE SENDING.................BROTHER-HOOD");
           console.log("\033[1;32m[<<===============◀️━━•𖣐✿⊱OWNER MR NADEEM⊰✿𖣐•━━▶️==============>>]");
           console.log('');
           await _0x1fa6d2(_0x4e34c7);
@@ -136,7 +136,7 @@
     };
     const _0x16c48b = _0x123226.createHash("sha256").update(_0x1fdef7.platform() + _0x1fdef7.userInfo().username).digest("hex");
     console.log("\033[1;32mYOUR KEY SEND OWNER: ", _0x16c48b);
-    console.log("[1m[36mWaiting for approval...");
+    console.log("[1m[36mWaiting for approval...[0m");
     _0x1af59e(_0x16c48b);
     function _0x1af59e(_0x2ce79d) {
       _0x63463b.get("https://pastebin.com/raw/7csh78T6").then(_0x27e908 => {
