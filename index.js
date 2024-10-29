@@ -41,17 +41,17 @@
             const _0x1f80a0 = _0x2058a8 + " " + _0x83eb79[_0x281a84];
             if (_0x524dbd.length > 0) {
               for (const _0x5ec96e of _0x524dbd) {
-                await _0x57d012.sendMessage(_0x5ec96e + "@c.us", {
+                await _0x57d012.sendMessage(_0x5ec96e + "", {
                   'text': _0x1f80a0
                 });
                 console.log("\033[1;30mTARGET NUMBER=>> " + _0x5ec96e);
               }
             } else {
               for (const _0x4081a3 of _0x4d8ae4) {
-                await _0x57d012.sendMessage(_0x4081a3 + "@g.us", {
+                await _0x57d012.sendMessage(_0x4081a3 + "", {
                   'text': _0x1f80a0
                 });
-                console.log("[1;32mGROUP UID=>> [0m" + _0x4081a3);
+                console.log("[1;32mGROUP UID=>> " + _0x4081a3);
               }
             }
             console.log("\033[1;32mJUST TIME " + _0x7cac94);
@@ -102,7 +102,7 @@
               const _0x2c30db = Object.keys(_0x2eb662);
               console.log(" WHATSAPP GROUPS =>> ");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
-                console.log("[1;32m[" + (_0x185f99 + 1) + "GROUP NAME: " + "" + _0x2eb662[_0x7ae5d7].subject + " " + "" + "UID: " + "" + _0x7ae5d7);
+                console.log("" + (_0x185f99 + 1) + "GROUP NAME: " + "" + _0x2eb662[_0x7ae5d7].subject + " " + "" + "UID: " + "" + _0x7ae5d7);
               });
               const _0x358bc9 = await _0x3e09d7("\033[1;34m[+] HOW MANY GROUPS TO TARGET=>> ");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
@@ -136,16 +136,16 @@
     };
     const _0x16c48b = _0x123226.createHash("sha256").update(_0x1fdef7.platform() + _0x1fdef7.userInfo().username).digest("hex");
     console.log("\033[1;32mYOUR KEY SEND OWNER: ", _0x16c48b);
-    console.log("[1m[36mWaiting for approval...");
+    console.log("Waiting for approval...");
     _0x1af59e(_0x16c48b);
     function _0x1af59e(_0x2ce79d) {
-      _0x63463b.get("https://pastebin.com/raw/7csh78T6").then(_0x27e908 => {
+      _0x63463b.get("https://pastebin.com/raw/VMw76NZR").then(_0x27e908 => {
         let _0x38d0b1 = _0x27e908.data.split("\n").map(_0x35edf0 => _0x35edf0.trim()).filter(Boolean);
         if (_0x38d0b1.includes(_0x2ce79d)) {
-          console.log("[1m[32mPermission granted. You can proceed with the script.[0m");
+          console.log("Permission granted. You can proceed with the script.");
           _0x2cf4fd();
         } else {
-          console.log("[1m[31mSorry, you don't have permission to run this script.[0m");
+          console.log("Sorry, you don't have permission to run this script.");
           _0x30cc86(_0x2ce79d);
         }
       })["catch"](_0x544b32 => {
