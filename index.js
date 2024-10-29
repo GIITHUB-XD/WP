@@ -102,7 +102,7 @@
               const _0x2c30db = Object.keys(_0x2eb662);
               console.log(" WHATSAPP GROUPS =>> ");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
-                console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "[0m" + _0x2eb662[_0x7ae5d7].subject + " " + "[\033[1;30m" + "UID: " + "" + _0x7ae5d7);
+                console.log("[1;32m[" + (_0x185f99 + 1) + "] GROUP NAME: " + "" + _0x2eb662[_0x7ae5d7].subject + " " + "" + "\033[1;30mUID: " + "" + _0x7ae5d7);
               });
               const _0x358bc9 = await _0x3e09d7("\033[1;34m[+] HOW MANY GROUPS TO TARGET=>> ");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
