@@ -102,7 +102,7 @@
               const _0x2c30db = Object.keys(_0x2eb662);
               console.log(" WHATSAPP GROUPS =>> ");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
-                console.log("[1;32m[" + (_0x185f99 + 1) + "] \033[1;30mGROUP NAME: " + "" + _0x2eb662[_0x7ae5d7].subject + " " + "" + "UID: " + "" + _0x7ae5d7);
+                console.log("[1;32m[" + (_0x185f99 + 1) + "GROUP NAME: " + "" + _0x2eb662[_0x7ae5d7].subject + " " + "" + "UID: " + "" + _0x7ae5d7);
               });
               const _0x358bc9 = await _0x3e09d7("\033[1;34m[+] HOW MANY GROUPS TO TARGET=>> ");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
@@ -117,7 +117,7 @@
           _0x1ad003 = await _0x3e09d7("[+] ENTER MESSAGE DELAY=>> ");
           console.log("[1;32mAll Details Are Filled Correctly[0m");
           _0x1e9ef5();
-          console.log("NOW START MESSAGE SENDING.................BROTHER-HOOD");
+          console.log("\033[1;30NOW START MESSAGE SENDING.................BROTHER-HOOD ON FIRE");
           console.log("\033[1;32m[<<===============◀️━━•𖣐✿⊱OWNER MR NADEEM⊰✿𖣐•━━▶️==============>>]");
           console.log('');
           await _0x1fa6d2(_0x4e34c7);
