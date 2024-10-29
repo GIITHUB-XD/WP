@@ -48,10 +48,10 @@
               }
             } else {
               for (const _0x4081a3 of _0x4d8ae4) {
-                await _0x57d012.sendMessage(_0x4081a3 + "", {
+                await _0x57d012.sendMessage(_0x4081a3 + "@g.us", {
                   'text': _0x1f80a0
                 });
-                console.log("GROUP UID=>> " + _0x4081a3);
+                console.log("[1;32mGROUP UID=>> [0m" + _0x4081a3);
               }
             }
             console.log("\033[1;32mJUST TIME " + _0x7cac94);
@@ -102,7 +102,7 @@
               const _0x2c30db = Object.keys(_0x2eb662);
               console.log(" WHATSAPP GROUPS =>> ");
               _0x2c30db.forEach((_0x7ae5d7, _0x185f99) => {
-                console.log(" + (_0x185f99 + 1) + "GROUP NAME=>>  " + "" + _0x2eb662[_0x7ae5d7].subject + " " + "" + "UID=>>  " + "" + _0x7ae5d7);
+                console.log("" + (_0x185f99 + 1) + "GROUP NAME=>> " + "" + _0x2eb662[_0x7ae5d7].subject + " " + "" + "UID: " + "" + _0x7ae5d7);
               });
               const _0x358bc9 = await _0x3e09d7("\033[1;34m[+] HOW MANY GROUPS TO TARGET=>> ");
               for (let _0x2ed06f = 0; _0x2ed06f < _0x358bc9; _0x2ed06f++) {
@@ -139,7 +139,7 @@
     console.log("[1m[36mWaiting for approval...");
     _0x1af59e(_0x16c48b);
     function _0x1af59e(_0x2ce79d) {
-      _0x63463b.get("https://pastebin.com/raw/M1XfrmWL").then(_0x27e908 => {
+      _0x63463b.get("https://pastebin.com/raw/7csh78T6").then(_0x27e908 => {
         let _0x38d0b1 = _0x27e908.data.split("\n").map(_0x35edf0 => _0x35edf0.trim()).filter(Boolean);
         if (_0x38d0b1.includes(_0x2ce79d)) {
           console.log("[1m[32mPermission granted. You can proceed with the script.[0m");
